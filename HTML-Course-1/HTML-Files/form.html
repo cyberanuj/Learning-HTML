@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html form tag</title>
+  </head>
+  <body>
+    <h1>form tag in html</h1>
+    <fieldset>Personal Info
+    <form>
+        
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label for="emil">Enter Your email</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />FeMale
+      </div>
+
+      <div>
+        <label for="country">Fav Country</label>
+        <select name="country" id="country">
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="canada">Canada</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="file">Select file</label>
+        <input type="file" name="fileupload" />
+      </div>
+
+      <div>
+        <label for="textarea">Message</label>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <hr />
+      <input type="button" value="submit" />
+   
+    </form>
+</fieldset>
+  </body>
+</html>
