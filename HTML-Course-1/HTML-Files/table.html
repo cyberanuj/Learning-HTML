@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table in HTML</title>
-</head>
-<body>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      tr,
+      th,
+      td {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
     <h1>Table in HTML</h1>
     <table border="2">
-        <thead>
-            <tr>
-                <th>Username</th>
-                <th>Password</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>anuj</td>
-                <td>qwers</td>
-            </tr>
-            <tr>
-                <td>akash</td>
-                <td>13231</td>
-            </tr>
-            <tr>
-                <td>vinay</td>
-                <td>hucdds</td>
-            </tr>
-            <tr>
-                <td>aditya</td>
-                <td>hjsjsnjs</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2">Total = 4</td>
-            </tr>
-        </tfoot>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>anuj</td>
+          <td>qwers</td>
+        </tr>
+        <tr>
+          <td>akash</td>
+          <td>13231</td>
+        </tr>
+        <tr>
+          <td>vinay</td>
+          <td>hucdds</td>
+        </tr>
+        <tr>
+          <td>aditya</td>
+          <td>hjsjsnjs</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total = 4</td>
+        </tr>
+      </tfoot>
     </table>
-</body>
+
+    <br /><br />
+    <hr />
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="7">Time Table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="7">Hours</td>
+          <td>Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+          <td>Sat</td>
+        </tr>
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+        <tr>
+            <td colspan="7">Lunch</td>
+        </tr>
+      
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+        <tr>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+          <td>math</td>
+        </tr>
+      
+         
+      </tbody>
+    </table>
+  </body>
 </html>
